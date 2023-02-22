@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Modifier utilisateur</title>
+    <meta name="title" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="referrer" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:image" content="">
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <h1>Modifier un utilisateur</h1>
+    </header>
+    <main>
+        <section>
+            <h1 class="sr-only">Retour à la liste</h1>
+            <button type="button">Retour à la liste</button>
+        </section>
+        <form id="update-form">
+            <fieldset>
+                <label for="id">Id</label>
+                <input type="text" name="id"/>
+            </fieldset>
+            <fieldset>
+                <label for="pseudo">Pseudo</label>
+                <input type="text" name="pseudo"/>
+            </fieldset>
+            <fieldset>
+                <label for="prénom">Prénom</label>
+                <input type="text" name="prénom"/>
+            </fieldset>
+            <fieldset>
+                <label for="nom">Nom</label>
+                <input type="text" name="nom"/>
+            </fieldset>
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" name="email"/>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Sauvegarder" id="sbm-update-btn" />
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        
+    </footer>
+    <script type="module" src="assets/js/index.js"></script>
+</body>
+</html>
